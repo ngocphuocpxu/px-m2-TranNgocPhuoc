@@ -24,7 +24,7 @@ namespace BookManager.Models
         public string Description { get; set; }
 
         [Required(ErrorMessage = "Nhập năm xuất bản!")]
-        [MinLength(4, ErrorMessage = "Năm xuất bản phải có 4 ký tự!")]
+        
         [DisplayName("Năm xuất bản")]
         public int Year { get; set; }
 

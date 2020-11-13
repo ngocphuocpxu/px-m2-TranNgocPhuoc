@@ -1,0 +1,76 @@
+﻿@model List<Book>
+
+<div>
+    <div class="row pt-4">
+        <div class="col-6">
+            <h2 class="text-primary">Book List</h2>
+        </div>
+
+        <div class="col-6 text-right">
+            <a asp-controller="Books" asp-action="Create" class="btn btn-primary">
+                Create New Book
+            </a>
+        </div>
+    </div>
+
+    @if (Model.Count() > 0)
+    {
+        <table class="table table-bordered table-striped" style="width:100%">
+            <thead>
+                <tr>
+                    <th>
+                        Tên sách
+                    </th>
+                    <th>
+                        Tác giả
+                    </th>
+                    <th>
+                        Mô tả
+                    </th>
+                    <th>
+                        Năm xuất bản
+                    </th>
+                    <th>
+                       Số lượng
+                    </th>
+                    <th>
+                        Category Name
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var book in Model)
+                {
+                <tr>
+                    <td width="30%">
+                        @book.Name
+                    </td>
+                    <td width="40%">
+                        @book.Author
+                    </td>
+                    <td width="40%">
+                        @book.Description
+                    </td>
+                    <td width="40%">
+                        @book.Year
+                    </td>
+                    <td width="40%">
+                        @book.Count
+                    </td>
+                    <td width="10%">
+                        @book.Category.CategoryName
+                    </td>
+                    <td width="20%">
+                        <div>
+                          
+                            <a asp-controller="Books" asp-action="Delete" asp-route-Id="@book.Id" class="btn btn-danger">Delete</a>
+                        </div>
+                    </td>
+                </tr>
+                }
+            </tbody>
+        </table> }
+    else
+    {
+        <p>Không tồn tại thể loại trong database</p>}
+</div>

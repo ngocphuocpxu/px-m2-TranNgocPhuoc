@@ -377,10 +377,10 @@ C:\Users\SONY\source\repos\BookManager\BookManager\bin\Debug\netcoreapp3.1\runti
 C:\Users\SONY\source\repos\BookManager\BookManager\obj\Debug\netcoreapp3.1\BookManager.csproj.CoreCompileInputs.cache
 C:\Users\SONY\source\repos\BookManager\BookManager\obj\Debug\netcoreapp3.1\BookManager.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\SONY\source\repos\BookManager\BookManager\obj\Debug\netcoreapp3.1\BookManager.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\SONY\source\repos\BookManager\BookManager\obj\Debug\netcoreapp3.1\Razor\Views\Book\Index.cshtml.g.cs
 C:\Users\SONY\source\repos\BookManager\BookManager\obj\Debug\netcoreapp3.1\BookManager.Views.pdb
 C:\Users\SONY\source\repos\BookManager\BookManager\obj\Debug\netcoreapp3.1\BookManager.dll
 C:\Users\SONY\source\repos\BookManager\BookManager\obj\Debug\netcoreapp3.1\BookManager.pdb
 C:\Users\SONY\source\repos\BookManager\BookManager\obj\Debug\netcoreapp3.1\BookManager.genruntimeconfig.cache
-C:\Users\SONY\source\repos\BookManager\BookManager\obj\Debug\netcoreapp3.1\Razor\Views\Book\Create.cshtml.g.cs
-C:\Users\SONY\source\repos\BookManager\BookManager\obj\Debug\netcoreapp3.1\Razor\Views\Book\Delete.cshtml.g.cs
+C:\Users\SONY\source\repos\BookManager\BookManager\obj\Debug\netcoreapp3.1\Razor\Views\Books\Create.cshtml.g.cs
+C:\Users\SONY\source\repos\BookManager\BookManager\obj\Debug\netcoreapp3.1\Razor\Views\Books\Delete.cshtml.g.cs
+C:\Users\SONY\source\repos\BookManager\BookManager\obj\Debug\netcoreapp3.1\Razor\Views\Books\Index.cshtml.g.cs
